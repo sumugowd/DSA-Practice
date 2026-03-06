@@ -10,7 +10,9 @@ Using C++ STL reverse() to reverse the array in-place.
 */
 #include<bits/stdc++.h>
 using namespace std;
-void reverseArray(vector<int> &arr);
+void reverseArray(vector<int> &arr) {
+    reverse(arr.begin(),arr.end());
+}
 int main() {
     int n;
     cin >> n;
@@ -27,8 +29,4 @@ int main() {
         cout << arr[i]<<" ";
     }
     return 0;
-}
-
-void reverseArray(vector<int> &arr) {
-    reverse(arr.begin(),arr.end());
 }
