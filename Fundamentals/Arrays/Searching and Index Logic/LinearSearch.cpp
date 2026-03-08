@@ -39,4 +39,6 @@ int main() {
     int ans = LinearSearch(arr, target);
 
     cout << ans;
+
+    return 0;
 }
